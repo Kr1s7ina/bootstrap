@@ -1,0 +1,234 @@
+a{
+    text-decoration: none !important;
+}
+
+.page-container {
+    align-content: stretch;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.nav-backgraound .main-navbar{
+    background-color: rgb(224, 220, 219, 0.7);
+}
+.main-navbar .main-navbar-inner{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.intro-section {
+    align-items: center;
+    background-image: url(../img/image.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+.intro-section .intro-content-wrapper {
+    width: 100%;
+}
+
+
+.intro-section .intro-content-wrapper .intro-content .intro-content-inner {
+    flex: 1 0 100%;
+}
+
+.intro-section .intro-content-wrapper .intro-content .intro-content-inner .intro-content-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.player {
+    margin-top: -9em;
+    position: relative;
+    z-index: 1;
+}
+
+.inspiration{
+    margin-top: 5em;
+}
+
+.selects{
+    background-color: #f3f3f3;
+}
+
+.headphones-button{
+    position: absolute;
+    right: 5%;
+    top: 3%;
+}
+
+.background-img{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+    justify-content: center;
+    width: 100%;
+}
+
+.selects .img1{
+    background-image: url(../img/pd7-img1-300x300.jpg);
+    border-radius: 10px 0px 0px 10px ;
+
+}
+
+.selects .img2{
+    background-image: url(../img/pd8-img1-300x300.jpg);
+    border-radius: 10px 0px 0px 10px ;
+    
+}
+
+.selects .img3{
+    background-image: url(../img/pd6-img1-300x300.jpg);
+    border-radius: 10px 0px 0px 10px ;
+}
+
+.essential-episodes .fa-solid.fa-share-nodes{
+    background-color: #8E8B8C;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.essential-episodes .img1{
+    background-image: url(../img/ess_1.jpg);
+    height: 30vh;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px ;
+}
+.essential-episodes .img2{
+    background-image: url(../img/ess_2.jpg);
+    height: 30vh;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px ;
+}
+.essential-episodes .img3{
+    background-image: url(../img/ess_3.jpg);
+    height: 30vh;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px ;
+}
+.essential-episodes .img4{
+    background-image: url(../img/ess_4.jpg);
+    height: 30vh;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px ;
+}
+.essential-episodes .img5{
+    background-image: url(../img/ess_5.jpg);
+    height: 30vh;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px ;
+}
+.essential-episodes .img6{
+    background-image: url(../img/ess_6.jpg);
+    height: 30vh;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px ;
+}
+.video-player .img11{
+    align-items: center;
+    background-image: url(../img/11.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    
+}
+.video-player .btn{
+    height: 50px;
+    width: 50px;
+}
+.Creative-strategist .img21{
+    background-image: url(../img/21.jpg);
+    height: 45vh;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px ;
+    
+}
+.Creative-strategist .img22{
+    background-image: url(../img/22.jpg);
+    height: 45vh;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px ;
+    
+}
+.Creative-strategist .img23{
+    background-image: url(../img/23.jpg);
+    height: 45vh;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px ;
+}
+section .card{
+    border: none;
+    box-shadow:0px 0px 30px -15px ;
+}
+ @media(max-width: 900px){
+    .intro-content-text h1{
+        color: rgb(235, 247, 251, 1);
+    }
+    .intro-content-text h5{
+        color: rgb(235, 247, 251, 1);
+    }
+}
+
+@media (min-width: 900px){
+    .intro-content-text{
+        max-width: 50%;
+    }
+    .intro-content-text h1{
+        font-size: 95px;
+       
+        
+    }
+
+    section h2{
+        font-size: 50px;
+    }
+
+    .inspiration .inspiration-text p{
+        font-size: 17px;
+    }
+
+    .selects p{
+        font-size: 17px;
+    }
+
+    .selects > .cards{
+        display: flex;
+    }
+
+    h5.card-title{
+        font-size: 27px;
+        padding-bottom: 2px;
+        border-bottom: 2px solid black;
+    }
+
+    .Creative-strategist h5.card-title{
+        border-bottom: none;
+    }
+
+    footer h5{
+        font-size: 27px;
+    }
+}
+footer{
+    background-color: black;
+    color: #f3f3f3; 
+}
