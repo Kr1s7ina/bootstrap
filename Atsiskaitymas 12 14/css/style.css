@@ -1,0 +1,47 @@
+h1{
+    color: #91C788;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.has-search {
+    position: relative;
+  }
+  
+.has-search .form-control {
+    padding-left: 2.375rem;
+    height: 2.5rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    left: 0;
+    top: 0;
+}
+
+#show-all-button{
+    background-color: #91C788;
+    color: white;
+    height: 50px;
+    width: 40vh;
+}
+
+.card{
+    background-color: #EFF7EE;
+}
+
+.card-title{
+    color: #6CB663;
+}
+
+.card p, .card li{
+    color: #767676;
+}

@@ -1,0 +1,36 @@
+.container-fluid{
+    background-color: rgb(234, 229, 234);
+    width:auto
+
+}
+
+
+.containerfirst{
+    background-color: rgb(243, 235, 236);
+    border: 10px;
+    display: flex;
+    justify-content: center;
+    width:auto
+
+}
+.col-12{
+    background-color: rgb(224, 88, 192);
+    margin:10px
+}
+.col-3{
+    background-color:red;
+    margin:10px
+}
+.col-6{
+    background-color: aqua;
+    border-bottom-right-radius: 10px;
+    margin:10px
+}
+.col-8{
+    background-color: green;
+    margin: 10px;
+}
+.col-4{
+    background-color: rgb(232, 166, 43);
+    margin: 10px;
+}
